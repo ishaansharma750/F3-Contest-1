@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees Table</title>
+    <link rel="stylesheet"  href="./style.css">
+</head>
+<body>
+    <h1>New Employees</h1>
+    <div id="formContainer">
+      <form id="employeeForm">
+        <label for="name">Enter Name:</label>
+        <input type="text" id="name" required>
+        
+        <label for="profession">Enter Profession:</label>
+        <input type="text" id="profession" required>
+        
+        <label for="age">Enter Age:</label>
+        <input type="number" id="age" required>
+        
+       
+      </form>
+      <div class="add-btn">
+         <!-- <input type="submit" value="Add Employee">  -->
+        <button id="subbtn" type="submit">Add Employee</button>
+      </div>
+     
+    </div>
+  
+    <h2 style="margin:20px 10px;">Added Employees</h2>
+    <div id="employees"></div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
